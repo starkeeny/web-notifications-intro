@@ -6,10 +6,13 @@
     <title>web notifications intro</title>
     <meta name="description" content="A sample page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="app.js"></script>
+    <script src="app.js" defer="defer"></script>
   </head>
 <body>
   <h1>hello world</h1>
   <button onclick="showSimpleMessage()">hello world notification</button>
+  <button onclick="sendNotification()">trigger server side notification</button>
+  <input type="text" id="messageContent"></input>
+  <div id="logContainer" style="width: 95%; background-color: orange; min-height: 20px; margin: auto"></div>
 </body>
 </html>
