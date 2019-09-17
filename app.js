@@ -38,18 +38,18 @@ function showSimpleMessage() {
         actions: [{
             action: 'yes',
             title: 'absolutely',
-            icon: '/yes.png'
+            icon: './yes.png'
         },{
             action: 'no',
             title: 'nope',
-            icon: '/no.png'
+            icon: './no.png'
         }/*,{
             action: 'maybe',
             title: 'arrr',
-            icon: '/icon.png'
+            icon: './icon.png'
         }*/],
         requireInteraction: true,
-        icon: '/icon.png' 
+        icon: './icon.png' 
     });
 }
 
